@@ -1,5 +1,7 @@
 # Where2 
 
+[![build status](https://secure.travis-ci.org/twilson63/where2.png)](http://travis-ci.org/twilson63/where2)
+
 A simple lib that converts a object clause into a sql where clause:
 
 ex:
