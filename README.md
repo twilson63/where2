@@ -94,3 +94,9 @@ name != "bar"
 ```
 Returns all records where name is not equal to "bar"
 
+## Collaborators
+
+* Kevin Collins [/kevincol54](/twilson63)
+* Tom Wilson [/twilson63](/twilson63)
+
+
