@@ -96,7 +96,7 @@ Returns all records where name is not equal to "bar"
 
 ## Collaborators
 
-* Kevin Collins [/kevincol54](/twilson63)
-* Tom Wilson [/twilson63](/twilson63)
+* Kevin Collins [kevincol54](https://github.com/kevincol54)
+* Tom Wilson [twilson63](https://github.com/twilson63)
 
 
