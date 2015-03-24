@@ -1,6 +1,6 @@
 {
   "name": "where2",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple lib that converts a object clause into a sql where clause:",
   "main": "index.js",
   "scripts": {
