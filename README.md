@@ -25,4 +25,72 @@ var where2 = require('where2');
 var result = where2({foo: { $lte: 'bar'}})
 ```
 
+## Where Attributes
+
+Key | Description
+----|------------
+$lt | Less Than
+$lte | Less Than or Equal
+$gt | Greater Than
+$gte | Greater Than or Equal
+$ne  | Not Equal To
+
+## JSON Examples
+
+### Where
+#### where single equals:
+
+  {"name":"foo2"}
+```
+name = "foo2"
+```
+Returns all records where name equals "foo2"
+
+#### where multiple equals:
+
+  {"name":"foo","description":"bar"}
+```
+name = "foo" AND description = "bar"
+```
+Returns all records where name equals "foo" and description equals "bar"
+
+#### where less than:
+
+  {"id":{"$lt":"2"}}
+```
+id < 2
+```
+Returns all records where id is less than "2"
+
+#### where less than or equal to:
+
+  {"id":{"$lte":"2"}}
+```
+id <= 2
+```
+Returns all records where id is less than or equal to "2"
+
+#### where greater than:
+
+  {"id":{"$gt":"2"}}
+```
+id > 2
+```
+Returns all records where id is greater than "2"
+
+#### where greater than or equal to:
+
+  {"id":{"$gte":"2"}}
+```
+id >= 2
+```
+Returns all records where id is greater than or equal to "2"
+
+#### where not equal to:
+
+  {"name":{"$ne":"bar"}}
+```
+name != "bar"
+```
+Returns all records where name is not equal to "bar"
 
