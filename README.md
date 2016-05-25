@@ -46,6 +46,14 @@ name = "foo2"
 ```
 Returns all records where name equals "foo2"
 
+#### where in collection:
+
+  {"name":["foo2", "foo3"]}
+```
+name IN ("foo2", "foo3")
+```
+Returns all records where name equals "foo2" or "foo3"
+
 #### where multiple equals:
 
   {"name":"foo","description":"bar"}
