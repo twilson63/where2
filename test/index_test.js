@@ -8,7 +8,7 @@ test('Happy Path', function(t){
   );
   t.equals(
     w2({foo: 1}),
-    "foo = 1"
+    "foo = '1'"
   );
   t.equals(
     w2({foo: ['bar']}),
