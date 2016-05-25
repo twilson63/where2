@@ -4,12 +4,10 @@ var template = _.template("<%= key %> <%= op %> <%= value %>");
 var matchers = { $gt: '>', $gte: '>=', $lt: '<', $lte: '<=', $ne: '!='};
 
 function sqlValue(value) {
-  if (_.isNumber(value)) {
-    return value;
-  } else if (_.isString(value)) {
+  if (_.isString(value)) {
     return "'" + value.replace(/'/g, "''") + "'";
   } else {
-    return "'" + value + "'"; // backwards compatibility for undefined input etc
+    return "'" + value + "'"; // backwards compatibility for numeric input etc
   }
 }
 
